@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Harsh Wardhan | ePortfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BACKGROUND EFFECTS -->
+<div class="bg-effects">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- HERO SECTION -->
+<header class="hero">
+  <div class="hero-card">
+    <img id="profileImage" alt="Profile Photo">
+    <input type="file" id="imageUpload" accept="image/*">
+
+    <h1 contenteditable="true">Harsh Wardhan</h1>
+    <p contenteditable="true">Student | Learner | ePortfolio</p>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <a href="#about">About</a>
+  <a href="#video">Introduction Video</a>
+  <a href="#learning">Learnings</a>
+  <a href="#assignments">Assignments</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="card" contenteditable="true">
+  <h2>About Me</h2>
+  <p>
+    Click here and write about yourself.  
+    You can explain your background, interests, and academic goals.
+  </p>
+</section>
+
+<!-- VIDEO SECTION -->
+<section id="video" class="card">
+  <h2>Introduction Video</h2>
+
+  <input type="file" id="videoUpload" accept="video/*">
+  <video id="introVideo" controls></video>
+</section>
+
+<!-- LEARNINGS SECTION -->
+<section id="learning" class="card">
+  <h2>Learnings</h2>
+
+  <!-- Container for unlimited classes -->
+  <div id="learningContainer"></div>
+
+  <!-- Add new class button -->
+  <button id="addClassBtn">➕ Add New Class</button>
+</section>
+
+<!-- ASSIGNMENTS SECTION -->
+<section id="assignments" class="card">
+  <h2>Assignments</h2>
+
+  <input type="file" id="assignmentUpload" multiple>
+  <ul id="assignmentList"></ul>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="card" contenteditable="true">
+  <h2>Contact Me</h2>
+  <p>LinkedIn:</p>
+  <p>Phone:</p>
+  <p>Email:</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Harsh Wardhan | Professional Academic ePortfolio
+</footer>
+
+<!-- SCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
